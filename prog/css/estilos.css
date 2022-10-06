@@ -1,6 +1,11 @@
+body{
+    margin-top: 500px;
+}
 img.fotoMetro{
     width: 30%;
-    
+}
+h1.titulo{
+    text-align: center;
 }
 .seleccion {
     background-color: white;
