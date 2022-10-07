@@ -1,8 +1,11 @@
 img.fotoMetro{
-    width: 30%;
+    width: 300px;
     position: absolute;
     left: 2%;
     top: 11%;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+
 }
 h1.titulo{
     text-align: center;
