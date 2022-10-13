@@ -24,3 +24,7 @@ h1.titulo{
 select.form-select {
     margin-bottom: 15px;
 }
+
+.parrafoP{
+    padding-left: 500px;
+}
