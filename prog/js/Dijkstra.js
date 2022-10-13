@@ -1,5 +1,13 @@
 // Este objeto almacena todo el contenido de nuestro grafo.
-const grafo = {};
+const grafo = {
+    a: {b:1,d:3},
+    b: {a:1,c:2,e:3},
+    c: {b:2,d:2,e:2,f:2},
+    d: {a:3,c:2,f:3,g:6},
+    e: {b:2,c:2,f:4},
+    f: {c:2,d:3,e:4,f:5},
+    g: {d:6,f:5},
+};
 
 // Este objeto almacena todas las coordenadas de cada vertice.
 const coordenadas = {};
