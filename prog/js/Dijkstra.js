@@ -105,3 +105,12 @@ const dijkstra = (grafo, nodoInicial, nodoFinal) => {
 
     return resultados;
 };
+
+function prueba(){
+    let nodoIni = $('#nodoI').val();
+    let nodoFin = $('#nodoF').val();
+    let resultado = dijkstra(grafo, nodoIni, nodoFin);
+
+    document.getElementById('parrafoP').innerHTML = resultado;
+
+}
