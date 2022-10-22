@@ -108,11 +108,15 @@ const dijkstra = (grafo, nodoInicial, nodoFinal) => {
 
 function prueba(){
     let nodoIni = $('#nodoI').val();
-    console.log(nodoIni);
+    // console.log(nodoIni);
     let nodoFin = $('#nodoF').val();
-    console.log(nodoFin);
+    // console.log(nodoFin);
     let resultado = dijkstra(grafo, nodoIni, nodoFin);
 
-    console.log(resultado);
+
+    for(a in resultado){
+        console.log(`${a}: ${resultado[a]}`);
+        document.getElementById('res').innerHTML=''+a+': '+resultado[a];
+    }
 
 }
