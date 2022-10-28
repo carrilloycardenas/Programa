@@ -1,5 +1,5 @@
 img.fotoMetro{
-    width: 350px;
+    width: 550px;
     position: absolute;
     position:absolute;
     left: 2%;
@@ -26,5 +26,6 @@ select.form-select {
 }
 
 .parrafoP{
-    padding-left: 500px;
+    margin-top: 10px;
+    padding-left: 40%;
 }

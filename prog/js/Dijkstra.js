@@ -114,9 +114,12 @@ function prueba(){
     let resultado = dijkstra(grafo, nodoIni, nodoFin);
 
 
-    for(a in resultado){
-        console.log(`${a}: ${resultado[a]}`);
-        document.getElementById('res').innerHTML=''+a+': '+resultado[a];
+    if(resultado.distancia=='Infinity'){
+        window.alert('Selecciona estaciones diferentes.');
+    }
+    else{
+        document.getElementById('dis').innerHTML='Distancia: '+resultado.distancia;
+        document.getElementById('ruta').innerHTML='Ruta: '+resultado.ruta;
     }
 
 }
