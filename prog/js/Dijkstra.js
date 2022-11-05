@@ -164,11 +164,186 @@ function prueba(){
     if(nodoIni!=nodoFin){
         let resultado = dijkstra(grafo, nodoIni, nodoFin);
 
+        for(let i=0;i<resultado.ruta.length;i++){
+            switch(resultado.ruta[i]){
+                case 'e0':
+                    resultado.ruta[i]=" Park Kultury";
+                    break;
+                case 'e1':
+                    resultado.ruta[i]=" Biblioteka Imeni Lenina";
+                    break;
+                case 'e2':
+                    resultado.ruta[i]=" Okhotny Ryad";
+                    break;
+                case 'e3':
+                    resultado.ruta[i]=" Lubyanka";
+                    break;
+                case 'e4':
+                    resultado.ruta[i]=" Chistye Prudy";
+                    break;
+                case 'e5':
+                    resultado.ruta[i]=" Komsomolskaya";
+                    break;
+                case 'e6':
+                    resultado.ruta[i]=" Belorusskaya";
+                    break;
+                case 'e7':
+                    resultado.ruta[i]=" Tverskaya";
+                    break;
+                case 'e8':
+                    resultado.ruta[i]=" Teatralnaya";
+                    break;
+                case 'e9':
+                    resultado.ruta[i]=" Novokuznetskaya";
+                    break;
+                case 'e10':
+                    resultado.ruta[i]=" Paveletskaya";
+                    break;
+                case 'e11':
+                    resultado.ruta[i]=" Kashirkaya";
+                    break;
+                case 'e12':
+                    resultado.ruta[i]=" Krasnogvardeyskaya";
+                    break;
+                case 'e13':
+                    resultado.ruta[i]=" Zyablikovo";
+                    break;
+                case 'e14':
+                    resultado.ruta[i]=" Kuntsevskaya";
+                    break;
+                case 'e15':
+                    resultado.ruta[i]=" Park Pobedy";
+                    break;
+                case 'e16':
+                    resultado.ruta[i]=" Kiyevskaya";
+                    break;
+                case 'e17':
+                    resultado.ruta[i]=" Arbatskaya";
+                    break;
+                case 'e18':
+                    resultado.ruta[i]=" Ploshchad Revolytsii";
+                    break;
+                case 'e19':
+                    resultado.ruta[i]=" Kurskaya";
+                    break;
+                case 'e20':
+                    resultado.ruta[i]=" Vystavochnaya";
+                    break;
+                case 'e21':
+                    resultado.ruta[i]=" Aleksandrovsky Sad";
+                    break;
+                case 'e22':
+                    resultado.ruta[i]=" Krasnopresnenskaya";
+                    break;
+                case 'e23':
+                    resultado.ruta[i]=" Novoslobodskaya";
+                    break;
+                case 'e24':
+                    resultado.ruta[i]=" Prospekt Mira";
+                    break;
+                case 'e25':
+                    resultado.ruta[i]=" Taganskaya";
+                    break;
+                case 'e26':
+                    resultado.ruta[i]=" Dobryninskaya";
+                    break;
+                case 'e27':
+                    resultado.ruta[i]=" Oktyabrskaya";
+                    break;
+                case 'e28':
+                    resultado.ruta[i]=" Novoyasenevskaya";
+                    break;
+                case 'e29':
+                    resultado.ruta[i]=" Tretyakovskaya";
+                    break;
+                case 'e30':
+                    resultado.ruta[i]=" Kitay-gorod";
+                    break;
+                case 'e31':
+                    resultado.ruta[i]=" Turgenevskaya";
+                    break;
+                case 'e32':
+                    resultado.ruta[i]=" VDNKh";
+                    break;
+                case 'e33':
+                    resultado.ruta[i]=" Barrikadnaya";
+                    break;
+                case 'e34':
+                    resultado.ruta[i]=" Pushkinskaya";
+                    break;
+                case 'e35':
+                    resultado.ruta[i]=" Kuznetsky Most";
+                    break;
+                case 'e36':
+                    resultado.ruta[i]=" Proletarskaya";
+                    break;
+                case 'e37':
+                    resultado.ruta[i]=" Delovoy Tsentr";
+                    break;
+                case 'e38':
+                    resultado.ruta[i]=" Marksistskaya";
+                    break;
+                case 'e39':
+                    resultado.ruta[i]=" Ploshchad Ilyicha";
+                    break;
+                case 'e40':
+                    resultado.ruta[i]=" Bulvar Dmitriya Donskongo";
+                    break;
+                case 'e41':
+                    resultado.ruta[i]=" Sevastopolskaya";
+                    break;
+                case 'e42':
+                    resultado.ruta[i]=" Serpukhovskaya";
+                    break;
+                case 'e43':
+                    resultado.ruta[i]=" Borovitskaya";
+                    break;
+                case 'e44':
+                    resultado.ruta[i]=" Chekhovskaya";
+                    break;
+                case 'e45':
+                    resultado.ruta[i]=" Tsventnoy Bulvar";
+                    break;
+                case 'e46':
+                    resultado.ruta[i]=" Mendeleyevskaya";
+                    break;
+                case 'e47':
+                    resultado.ruta[i]=" Timiryazevskaya";
+                    break;
+                case 'e48':
+                    resultado.ruta[i]=" Krestyanskaya Zastava";
+                    break;
+                case 'e49':
+                    resultado.ruta[i]=" Rimskaya";
+                    break;
+                case 'e50':
+                    resultado.ruta[i]=" Chkalovskaya";
+                    break;
+                case 'e51':
+                    resultado.ruta[i]=" Sretensky Bulvar";
+                    break;
+                case 'e52':
+                    resultado.ruta[i]=" Trubnaya";
+                    break;
+                case 'e53':
+                    resultado.ruta[i]=" Kakhovskaya";
+                    break;
+                case 'e54':
+                    resultado.ruta[i]=" Ulitsa Starokachalovskaya";
+                    break;
+                case 'e55':
+                    resultado.ruta[i]=" Bittsevsky Park";
+                    break;
+                case 'e56':
+                    resultado.ruta[i]=" Vystavochny Tsentr";
+                    break;
+            }
+
+        }
+        console.log(resultado.ruta);
         document.getElementById('dis').innerHTML='Distancia: '+resultado.distancia;
         document.getElementById('ruta').innerHTML='Ruta: '+resultado.ruta;
-        console.log(resultado.ruta);
 
-        
     }
     else{
         window.alert('No puedes seleccionar las mismas estaciones')
